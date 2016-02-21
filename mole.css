@@ -1,0 +1,91 @@
+/*HW6_game_mole of web2.0, qiangbo_14331229,group 11*/
+/*the .css of the game_mole*/
+
+	body { 
+		font-size:18px; 
+		font-family:Arial, Georgia, serif; 
+		color:black; 
+		text-align:center; 
+		margin:0px;
+		padding:0px;
+	}
+
+	h6{ 
+		margin:0; 
+		font-size:24px; 
+	} 
+
+	.start_box {
+	    border:gray 1px solid;	 
+			margin:45px;
+			padding: 1px;
+			border-radius:10%;
+	}
+	.time{
+		border-radius:10%;
+		width:40px;
+	  margin:0px;
+	}
+	.to_over{
+		margin-left:3%;
+		margin-right:7%;
+		color:red;
+		border-radius:10%;
+	  width:140px
+	}
+
+	.sover{
+		margin-right:0%;
+	}
+
+	.ssorce{
+		margin-left:17%;
+	}
+
+	.to_score{
+			border-radius:10%;
+		  width:40px; 
+	}
+
+	.mole_box{
+		cursor:pointer;
+	  background-image:url(hole.png);
+		margin: auto;
+    
+		width:700px;
+		height:500px;
+	}
+
+	.line{
+		margin-top:50px;
+		margin-bottom: 10px;
+		width:700px;
+	}
+
+	.foot_word {
+		margin-left: 10%;
+		text-align: left;
+	}
+
+	.hole_son {
+		background-repeat:no-repeat;
+	}
+
+	.hole_css {
+		  width:"104px";
+	    height:"104px"; 
+	   background-image:url(hole.png);
+	}
+
+	.mole_css{
+        width:"54px";
+	    height:"54px";
+	     
+	   background-image:url(mole.png);
+	}
+
+	.nomole_css{
+        width:"54px";
+	    height:"54px";  
+	   background-image:url(no_mole.png);
+	}

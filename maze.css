@@ -1,0 +1,113 @@
+/*HW6_maze of web2.0, qiangbo_14331229,group 11*/
+/*the .css of the maze*/
+
+	body { 
+		font-size:12px; 
+		font-family:Arial, Georgia, serif; 
+		color:black; 
+		text-align:center; 
+	}
+
+	h6{ 
+		margin:0; 
+		font-size:24px; 
+	} 
+    
+    p{ 
+		margin:0; 
+		font-size:18px; 
+	} 
+
+
+.maze_box {
+	  padding:0px; 
+		margin-top:40px;
+		color:blue;
+	  width:964px;
+		height:483px;
+	  margin-left: 180px;
+	  background-color:cdc9a5;
+	  cursor:url("persl.jpg"),pointer;
+}
+.maze_box1 {
+	  padding:0px; 
+		margin:35px 14px; 
+		color:blue;
+	  width:844px;
+		height:640px;
+	  margin-left: 480px;
+	  background-color:cdc9a5;
+	  cursor:url("pers2.jpg"),auto;
+}
+.maze_box2 {
+	  padding:0px; 
+		margin:35px 14px; 
+		color:blue;
+	  width:844px;
+		height:640px;
+	  margin-left: 480px;
+	  background-color:cdc9a5;
+	  cursor:url("pers3.jpg"),auto;
+}
+.wall_col {
+	position: absolute;
+	left:185px;
+	top:85px;
+	width:20px;
+	height:60px;
+	border: black 2px solid;
+	background-color: red;
+	background-image: url("bg.jpg");
+}
+
+.wall_row {
+	width:60px;
+	height:20px;
+	border: black 2px solid;
+	background-color: red;
+	background-image: url("bg.jpg");
+}
+
+.sty_cheat{
+	font-size:20px; 
+	font-family:Arial, Georgia, serif; 
+	color:red; 
+	position: absolute;
+	left:23%;;
+	top:58px;
+	width:700px;
+	height:30px;
+	border:black 2px solid;
+	background-color: #cdbe70;
+	margin-bottom: 10px;
+}
+.sty_screen {
+	position: absolute;
+	left:47%;
+	top:610px;
+	width:100px;
+	height:30px;
+	border:black 2px solid;
+	margin-bottom: 10px;
+	background-color: #cdbe70;
+}
+
+.foot {
+	font-size:18px; 
+	font-family:Arial, Georgia, serif; 
+	color:black; 
+	position:absolute;
+	left:178px;
+	
+}
+.reff {
+	position: absolute;
+	left:4%;
+	top:16%;
+	width:65px;
+	height:84px;
+	border:black 2px solid;
+	margin-bottom: 10px;
+	background-color: #cdbe70;
+}
+	

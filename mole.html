@@ -1,0 +1,60 @@
+
+<!--HW6_game_mole of web2.0, qiangbo_14331229,group 11
+the .html of the game_mole-->
+
+
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+    <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+        <title>mole
+        </title> 
+        <link href = "mole.css" type = "text/css" rel = "stylesheet">
+        <script type="text/javascript" src="mole.js">
+
+        </script>
+    </head> 
+
+    <body> 
+	    <h6>What-a-mole</h6>
+	    <p>Test your skill.How many boxes(moles) can you check(hit) in 30 seconds?
+	    </p>
+	    <div class = "c">
+		    <span class ="start_box" id = "start_box">
+		        <input type="button" value="Start Game" id="start_game"/> |
+		        <input type="button" value="Stop Game" id="stop_game"/>         
+		               
+		    </span>
+		    <span class = "Time">
+		    Time:
+		    
+		    <input value= 30 class = "time" id = "timego">
+		    </span>
+		    
+		</div>
+		<div>
+
+		    <span class = "sover">
+		        <input value="Game On" class = "to_over" id = "over">
+		    </span>
+
+		    <span class = "sscore">
+			    Score:
+			    <input value = "0"   class = "to_score" id = "score">
+			</span>
+
+		</div>
+        <hr class = "line">
+        <div class = "mole_box"  id = "mole_father">	   
+		</div>
+		<hr class = "line">
+        
+		<div  class = "foot_word">
+			<strong>Instructions:</strong>
+			<p>
+			1. Click on the radio buttons(moles) as they are selected randomly by the computer.<br>
+			2. 1 point per hit, minus 1 point per miss.
+			</p>
+		</div>
+    </body>
+
+</html>
